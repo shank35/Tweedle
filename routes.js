@@ -15,4 +15,4 @@ const displayContent = (req, res) => {
   res.end();
 }
 
-builtinModules.exports = displayContent;
+module.exports = displayContent;
