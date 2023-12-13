@@ -1,6 +1,6 @@
-var http = require('http');
+const http = require('http');
 
-var server = http.createServer((req, res) => {
+const server = http.createServer((req, res) => {
   console.log("Joined")
 })
 
